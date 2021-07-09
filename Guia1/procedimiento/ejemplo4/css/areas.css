@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: -moz-linear-gradient(left bottom, rgb(153,217,234) 40%, rgb(36,147,174) 70%, rgb(17,68,81) 95%);
+	background: -ms-linear-gradient(left bottom, rgb(153,217,234) 40%, rgb(36,147,174) 70%, rgb(17,68,81) 95%);
+	background: -o-linear-gradient(left bottom, rgb(153,217,234) 40%, rgb(36,147,174) 70%, rgb(17,68,81) 95%);
+	background: -webkit-linear-gradient(left bottom, rgb(153,217,234) 40%, rgb(36,147,174) 70%, rgb(17,68,81) 95%);
+	background: linear-gradient(left bottom, rgb(153,217,234) 40%, rgb(36,147,174) 70%, rgb(17,68,81) 95%);
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+/* Estilos para el área donde se mostrará 
+   la imagen de la figura geométrica */
+div {
+	display: block;
+	height: 120px;
+	margin: 0 auto;
+	width: 120px;
+}
+
+header h1 {
+	color: #fff;
+	font: Bold 3.2em Tahoma,Helvetica,"Liberation Sans",sans-serif;
+	text-align:center;
+	text-shadow: 0 0 2px #ccc,
+             -1px -1px 0 hsl(80, 70%, 35%),
+             -2px -2px 1px hsl(80, 70%, 35%),
+             -2px -2px 2px hsl(80, 10%, 15%);
+}
+
+nav ul {
+	font-size: 0;
+	padding: 0;
+}
+
+nav ul li {
+	background: rgba(0,0,0,.5);
+	display: inline-block;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	padding: 10px 0;
+	vertical-align: top;
+	width: 30%;
+}
+
+nav ul li:hover{
+    background:rgba(0,0,120,0.25);
+}
+
+nav ul li img {
+    display: block;
+    height: 125px;
+    margin: 0 auto;
+    width: 132px;
+}
+
+nav ul li a {
+    color: #DDD;
+    display: block;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #F6F600;
+}
+
+#menu{
+	background: -moz-linear-gradient(left bottom, rgb(39,30,107) 40%, rgb(11,6,43) 70%, rgb(2,2,10) 85%);
+	background: -ms-linear-gradient(left bottom, rgb(39,30,107) 40%, rgb(11,6,43) 70%, rgb(2,2,10) 85%);
+	background: -o-linear-gradient(left bottom, rgb(39,30,107) 40%, rgb(11,6,43) 70%, rgb(2,2,10) 85%);
+	background: -webkit-linear-gradient(left bottom, rgb(39,30,107) 40%, rgb(11,6,43) 70%, rgb(2,2,10) 85%);
+	background: linear-gradient(left bottom, rgb(39,30,107) 40%, rgb(11,6,43) 70%, rgb(2,2,10) 85%);
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#menu-options ul li {
+	height: auto;
+	width: 320px;
+}
+
+.back-button {
+	background-color: rgba(205,125,125,1); /* #0960C9 */
+	color: #ccc;
+	display: block;
+	font-size: 1.2em;
+	font-weight: Bold;
+	height: 50px;
+	margin: 32px auto;
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 24%;
+}
+
+.back-button:hover {
+	background-color: rgba(225,135,130,0.75);
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.circulo{
+	border-radius: 75px;
+	-moz-border-radius: 75px;
+	-ms-border-radius: 75px;
+	-o-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	background: navy;		
+}
+
+.rectangulo {
+	background-color: #D336C6;
+	width: 15%
+}
+
+.triangulo {
+	border-color: transparent transparent yellow transparent;
+	border-style: solid;
+	border-width: 90px;
+	height: 0;
+	width: 0px;
+}

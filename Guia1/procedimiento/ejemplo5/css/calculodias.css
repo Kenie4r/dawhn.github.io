@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(1,#AFD296),
+        color-stop(1,#BAEB96)
+    );
+    background-image: -o-linear-gradient(bottom,#AFD296 100%,#BAEB96 100%);
+    background-image: -moz-linear-gradient(bottom,#AFD296 100%,#BAEB96 100%);
+    background-image: -webkit-linear-gradient(bottom,#AFD296 100%,#BAEB96 100%);
+    background-image: -ms-linear-gradient(bottom,#AFD296 100%,#BAEB96 100%);
+    background-image: linear-gradient(to bottom,#AFD296 100%,#BAEB96 100%);
+}
+
+.inset-text-effect {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 2.4em/1 "Anton",Helvetica,"Liberation Sans",sans-serif;
+    color: rgba(230,240,235,1);
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    background: -webkit-linear-gradient(-90deg, rgba(208,228,247,0.2) 0, rgba(115,177,231,0.3) 24%, rgba(10,119,213,0.5) 50%, rgba(83,159,225,0.3) 79%, rgba(135,188,234,0.2) 100%), #34495e;
+    background: -moz-linear-gradient(180deg, rgba(208,228,247,0.2) 0, rgba(115,177,231,0.3) 24%, rgba(10,119,213,0.5) 50%, rgba(83,159,225,0.3) 79%, rgba(135,188,234,0.2) 100%), #34495e;
+    background: linear-gradient(180deg, rgba(208,228,247,0.2) 0, rgba(115,177,231,0.3) 24%, rgba(10,119,213,0.5) 50%, rgba(83,159,225,0.3) 79%, rgba(135,188,234,0.2) 100%), #34495e;
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.4);
+    -o-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.4);
+    -ms-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.4);
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6), -1px -1px 1px rgba(0,0,0,0.67);
+    margin: 25px auto;
+    padding: 12px 15px;
+    width: 720px;
+}
+
+.inset-text-effect h3 {
+	line-height: 1.5em
+	text-align: center;
+}

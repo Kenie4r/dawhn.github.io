@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.12, #C789A7),
+        color-stop(0.27, #F291B1),
+        color-stop(0.75, #C7A2B4)
+    );
+    background-image: -o-linear-gradient(bottom, #C789A7 12%, #F291B1 27%, #C7A2B4 75%);
+    background-image: -moz-linear-gradient(bottom, #C789A7 12%, #F291B1 27%, #C7A2B4 75%);
+    background-image: -webkit-linear-gradient(bottom, #C789A7 12%, #F291B1 27%, #C7A2B4 75%);
+    background-image: -ms-linear-gradient(bottom, #C789A7 12%, #F291B1 27%, #C7A2B4 75%);
+    background-image: linear-gradient(to bottom, #C789A7 12%, #F291B1 27%, #C7A2B4 75%);
+}
+
+h1 {
+    font-family:Oswald,Helvetica,Tahoma,"Liberation Sans";
+    font-weight:700;
+    font-size:2.5em;
+    letter-spacing: 1px;
+    margin: 24px auto;
+    text-align: center;
+    text-shadow: 3px 3px 0px #eee, 
+                 6px 6px 0px #696969;
+    padding: 12px 15px;
+}
+
+.moneyOn   {
+    background-color:Thistle;
+    border:outset 6px DarkViolet;
+    color:Indigo;
+}
+
+.moneyOff  {
+    border:inset 5px maroon;
+    background-color:MistyRose;
+    color:Sienna;
+}

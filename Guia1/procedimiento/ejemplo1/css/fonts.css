@@ -1,0 +1,25 @@
+/* Incluyendo la fuente Creative Zoo y todas sus variantes */
+@font-face { 
+    font-family: 'CreativeZoo'; 
+    src: url('../fonts/creativzoo.eot'); 
+    src: url('../fonts/creativzoo.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/creativzoo.woff') format('woff'), 
+         url('../fonts/creativzoo.ttf') format('truetype'), 
+         url('../fonts/creativzoo.svg#CreativeZoo') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+    font-variant: normal;
+}
+
+/* Incluyendo la fuente Sipll y todas sus variantes */
+@font-face { 
+    font-family: 'Sipll'; 
+    src: url('../fonts/sipll.eot'); 
+    src: url('../fonts/sipll.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/sipll.woff') format('woff'), 
+         url('../fonts/sipll.ttf') format('truetype'), 
+         url('../fonts/sipll.svg#CreativeZoo') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+    font-variant: normal;
+}
