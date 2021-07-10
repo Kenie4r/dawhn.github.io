@@ -1,0 +1,79 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 100%;
+    color: black;
+    background-image: url("bg.jpg");    
+}
+/*section{
+    border: solid red 3px;
+}*/
+article{
+    background-color: white ;
+    display:block;
+    margin:  3em auto;
+    width: 75%;
+    padding: 2em;
+    border: solid 1px gray;
+    box-shadow: 2px 2px gray;
+
+    border-radius: 12px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+#botones>div{
+    border: solid black 2px ;
+    width: 70%;
+    margin: 1.2em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(168, 133, 133);
+    color: white;
+}
+#botones>div:hover{
+    background-color: white;
+    color: rgb(172, 142, 142);
+}
+
+#formulasArea{
+    height:  200px;
+    border:  solid 2px gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+h3{
+    text-align: center;
+    font-size: 200;
+}
+#Resultado{
+    height: 150px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .grid{
+       grid-template-columns: repeat(1, 1fr); 
+    }
+}
