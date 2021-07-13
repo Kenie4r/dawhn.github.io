@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .grid{
     display: grid;
@@ -41,11 +41,11 @@ body{
     text-decoration: none;
 }
 .content{
+
     grid-column: span 11;
     background-color: rgb(201, 190, 149);;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1em;
-    height: 100vh;
 }
 
 .content h1{

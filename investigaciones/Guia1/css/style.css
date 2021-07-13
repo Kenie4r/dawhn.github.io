@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information{
+    background-color: white;
+    padding: 1em;
+    font-size: 1.2em;
+    overflow: scroll;
+    height: 60%;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.spanfull{
+    grid-column: span 12;
+}
+.span-6{
+    grid-column: span 12;
+}
+img{
+    display: block;
+    margin: auto;
+}
+p{
+    text-align:  justify;
+}
+.grid-col-center{
+    grid-column: 3/11;
+}
+.ejemplo{
+    padding: 1em;
+    font-size: medium;
+    border: solid black 1px;
+}
+.ejemplo>h2{
+    text-align: center;
+}
+.ejemplo input{
+    margin: 1em auto;
+    height: 25px;
+}

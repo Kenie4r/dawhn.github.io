@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript instrusivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/icons/style.css">
+</head>
+<body>
+    <article class="grid">
+        <section class="sidebar">
+                <h1  class="ic-head">
+                    <a href="../../index.html">
+                       JS
+
+                    </a>
+                </h1>
+                <ul>
+                    <li class="link"><a href="../../ejercicios.html"><span class="icon-file-empty" title="Ver los ejercicios"></span></a></li>
+                    <li class="link"><a href="../../ejemplos.html"><span class="icon-paint-format" title="Ver los ejemplos"></span></a></li>
+                    <li class="link"><a href="../../investigacion.html"><span class="icon-books" title="Ver las investigaciones"></span></a></li>
+                </ul>
+        </section>
+        <section class="content">
+           
+            <article class="information grid">
+                <nav class="spanfull"><h1>JavaScript instrusivo</h1></nav>
+                <p class="span-6">
+                    En la creación de aplicaciones web normalmente podemos 
+                    hacer el uso de JS y CSS de diferentes maneras, la primera fuera de 
+                    HTML y la otra dentro del archivo HTML con las respectivas etiquetas
+                    en el caso de JS el poder separar todas las funcionalidades del archivo 
+                    original, esto es llamado JavaScript no intrusivo.
+                </p>
+                <img src="img/capas.jfif" alt="" class="span-6">
+                <p class="span-6">
+                    Entonces teniendo en cuenta esto podemos decir que JavaScript intrusivo
+                    es practicamente lo contrario, es el JavaScript que está escrito en la estructura
+                    sintáctica del HTML usando el tag  o viñeta "script"
+                </p>
+                <br>
+                <p class="span-6">
+                    Una de las cosas por la que más se ve de menos este tipo de JS es porque
+                    el HTML es mucho más díficil de leer para las demás personas, en otros casos 
+                    en los que se es ya avanzado pues no hay porblema, entonces las ventaas 
+                    de un JavaScript Intrusivo recae en que si se usa para aquellas funcionalidades 
+                    simples de menos de más de 50 lineas de codigo, es mucho más fácil de enter el uso
+                    de este
+                </p>
+                <br>
+                <p class="spanfull">
+                    La siguiente imágen muestra como luce JavaScript intrusivo, el cual usa un alert
+                    para saludar al visitante:
+                </p>
+                <img src="img/codigo.png" alt="" srcset="" class="spanfull">
+                <article class="grid-col-center ejemplo">
+                    <h2>CONVERTIDOR DE DOLARES A EUROS</h2>
+                    <input type="text" id="txtDinero" placeholder="Ingrese la cantidad de dinero que quiere convertir">
+                    <button onclick="convertir()">convertir</button>
+                    <div >
+                        <p>Sabias que un Euro es igual a 1.18 dolares estadounidenses</p>
+                        <div id="conversion"></div>
+                    </div>
+                </article>
+            </article>
+            
+        </section>
+    </article>
+
+    
+    <script>
+     function convertir(){
+         var  dolares = document.getElementById("txtDinero").value;
+         var euro = dolares* 0.85;
+         if(isNaN(euro )==false){
+            document.getElementById("conversion").innerHTML = euro + " Euros"
+           
+         }else{
+            document.getElementById("conversion").innerHTML = "Ingrese un número"
+
+            
+
+         }
+         
+     }
+    </script>
+</body>
+</html>
