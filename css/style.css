@@ -153,17 +153,19 @@ body{
 
 
 
-@media (max-width: 750px ){
+@media (max-width: 800px ){
     body{
         overflow-y: scroll;
+        width: 100%;
     }
     .grid{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
     .sidebar{
         flex-direction: row;
         height: 10vh;
-      
+        width: 100%;
     }
     .sidebar ul{
         display: flex;
@@ -174,5 +176,6 @@ body{
     }
     .content{
         overflow: hidden;
+        width: 100%;
     }
 }
