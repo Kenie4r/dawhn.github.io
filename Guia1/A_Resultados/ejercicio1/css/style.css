@@ -51,6 +51,15 @@ div{
 .footer{
   clear: both;
   text-align: center;
-  background-color: var(--bg-color) ;
-  border: 4px solid orange ;
+  background-color: rgb(73, 255, 73) ;
+  border: 4px solid rgb(34, 255, 0) ;
+}
+
+@media (max-width: 750px){
+    .sidebar{
+        width: 95%;
+    }
+    .articulos{
+        width: 95%;
+    }
 }
