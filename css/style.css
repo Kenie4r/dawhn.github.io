@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: height 0.2s;
 }
 .header>.title{
     font-family: 'Source Code Pro', monospace;
@@ -87,4 +88,14 @@
 .url-item{
     text-decoration: none;
     color: black;
+}
+
+@media(max-width: 700px){
+    .rHeader>.menu li{
+        font-size: small;
+    }
+    .header>.title{
+        font-size: small;
+        text-align: center;
+    }
 }
