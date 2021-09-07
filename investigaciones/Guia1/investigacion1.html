@@ -5,87 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript instrusivo</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/icons/style.css">
+    <link rel="shortcut icon" href="../../css/img/javascript.png" type="image/x-icon">
 </head>
 <body>
-    <article class="grid">
-        <section class="sidebar">
-                <h1  class="ic-head">
-                    <a href="../../index.html">
-                       JS
+    <div class="header">
+        <div class="title">
+            <h1>JavaScript Incrusivo ¿Qué es?</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Guías de JS</a></li>
+                <li><a href="../../investigacion.html">Investigaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="information">
+            <p class="span-6">
+                En la creación de aplicaciones web normalmente podemos 
+                hacer el uso de JS y CSS de diferentes maneras, la primera fuera de 
+                HTML y la otra dentro del archivo HTML con las respectivas etiquetas
+                en el caso de JS el poder separar todas las funcionalidades del archivo 
+                original, esto es llamado JavaScript no intrusivo.
+            </p>
+            <p class="span-6">
+                Entonces teniendo en cuenta esto podemos decir que JavaScript intrusivo
+                es practicamente lo contrario, es el JavaScript que está escrito en la estructura
+                sintáctica del HTML usando el tag  o viñeta "&lt;script&gt;", un ejemplo de este
+                es el siguiente
+            </p>
+            <p class="code-block">
+                <code>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html lang="en"&gt;<br>
+                    &nbsp; &lt;head&gt;<br>
+                    &nbsp; &nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                    &nbsp; &nbsp;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br>
+                    &nbsp; &nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                    &nbsp; &nbsp;&lt;title&gt;JavaScript &lt;/title&gt;<br>
+                    &nbsp; &lt;/head&gt;<br>
+                    &nbsp; &lt;body&gt;<br>
+                    &nbsp; &nbsp;&lt;script&gt;<br>
+                    &nbsp; &nbsp;&nbsp; window.onload = Inicio;
+                                <br>
+                    &nbsp; &nbsp;&nbsp;function Inicio(){<br>
+                    &nbsp; &nbsp;&nbsp;&nbsp;alert("Hola Mundo!"); <br>
+                    &nbsp; &nbsp;&nbsp;} <br>
 
-                    </a>
-                </h1>
-                <ul>
-                    <li class="link"><a href="../../ejercicios.html"><span class="icon-file-empty" title="Ver los ejercicios"></span></a></li>
-                    <li class="link"><a href="../../ejemplos.html"><span class="icon-paint-format" title="Ver los ejemplos"></span></a></li>
-                    <li class="link"><a href="../../investigacion.html"><span class="icon-books" title="Ver las investigaciones"></span></a></li>
-                </ul>
-        </section>
-        <section class="content">
-           
-            <article class="information grid">
-                <nav class="spanfull"><h1>JavaScript instrusivo</h1></nav>
-                <p class="span-6">
-                    En la creación de aplicaciones web normalmente podemos 
-                    hacer el uso de JS y CSS de diferentes maneras, la primera fuera de 
-                    HTML y la otra dentro del archivo HTML con las respectivas etiquetas
-                    en el caso de JS el poder separar todas las funcionalidades del archivo 
-                    original, esto es llamado JavaScript no intrusivo.
-                </p>
-                <img src="img/capas.jfif" alt="" class="span-6">
-                <p class="span-6">
-                    Entonces teniendo en cuenta esto podemos decir que JavaScript intrusivo
-                    es practicamente lo contrario, es el JavaScript que está escrito en la estructura
-                    sintáctica del HTML usando el tag  o viñeta "script"
-                </p>
-                <br>
-                <p class="span-6">
-                    Una de las cosas por la que más se ve de menos este tipo de JS es porque
-                    el HTML es mucho más díficil de leer para las demás personas, en otros casos 
-                    en los que se es ya avanzado pues no hay porblema, entonces las ventaas 
-                    de un JavaScript Intrusivo recae en que si se usa para aquellas funcionalidades 
-                    simples de menos de más de 50 lineas de codigo, es mucho más fácil de enter el uso
-                    de este
-                </p>
-                <br>
-                <p class="spanfull">
-                    La siguiente imágen muestra como luce JavaScript intrusivo, el cual usa un alert
-                    para saludar al visitante:
-                </p>
-                <img src="img/codigo.png" alt="" srcset="" class="spanfull">
-                <article class="grid-col-center ejemplo">
-                    <h2>CONVERTIDOR DE DOLARES A EUROS</h2>
-                    <input type="text" id="txtDinero" placeholder="Ingrese la cantidad de dinero que quiere convertir">
-                    <button onclick="convertir()">convertir</button>
-                    <div >
-                        <p>Sabias que un Euro es igual a 1.18 dolares estadounidenses</p>
-                        <div id="conversion"></div>
-                    </div>
-                </article>
-            </article>
+                    &nbsp; &nbsp;&lt;/script&gt;<br>
+
+                    &nbsp; &lt;/body&gt;<br>
+                    &lt;/html&gt;
+                </code>
+            </p>
+            <br>
+            <p class="span-6">
+                Una de las cosas por la que más se ve de menos este tipo de JS es porque
+                el HTML es mucho más díficil de leer para las demás personas, en otros casos 
+                en los que se es ya avanzado pues no hay porblema, entonces las ventaas 
+                de un JavaScript Intrusivo recae en que si se usa para aquellas funcionalidades 
+                simples de menos de más de 50 lineas de codigo, es mucho más fácil de enter el uso
+                de este
+            </p>
             
-        </section>
-    </article>
+            <br>
+           <div class="example">
+               <h3 class="example-h3">Conversor de dolares</h3>
+               <div class="grid grid-col">
+                   <div class="section-information col-span-3">
+                       <h4>La equivalencia de 1 dolar es de </h4>
+                       <div class="equivalencia" id="equivalencia">
+                            <h1>0.84 Euro</h1>
+                       </div>
+                   </div>
+                   <div class="section-information  col-span-9">
+                       <div class="inputs-zone">
+                            <label for="opConvertir">Escoge a que moneda quieres convertir</label>
+                            <br>
+                            <select name="convertir" id="opConvertir">
+                                <option value="0">
+                                    <p>Euro</p>
+                                </option>
+                                <option value="1">
+                                    <p>Cólon Salvadoreño</p>
+                                </option>
+                                <option value="2">
+                                    <p>Yenes</p>
+                                </option>
+                            </select>
+                            <br>
+
+                       </div>
+                       <div class="input-zone">
+                           <label for="txtDolares">Ingresar la cantidad a convertir</label>
+                           <br>
+                            <input type="text" name="" id="txtDolares" value="0">
+                            <br>
+                            <label for="txtResult">Resultado de la conversión</label>
+                            <br>
+                            <input type="text" name="" id="txtResult" value="0" disabled>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
 
     
     <script>
-     function convertir(){
-         var  dolares = document.getElementById("txtDinero").value;
-         var euro = dolares* 0.85;
-         if(isNaN(euro )==false){
-            document.getElementById("conversion").innerHTML = euro + " Euros"
-           
-         }else{
-            document.getElementById("conversion").innerHTML = "Ingrese un número"
-
-            
-
+         window.onload = inicio;
+         var toDolar = 0.84;
+         function inicio(){
+             document.getElementById('opConvertir').oninput= cambiarValencia;
+             document.getElementById('txtDolares').oninput = calcular;
          }
-         
-     }
+         function cambiarValencia(){
+            var value = document.getElementById('opConvertir').value;
+            var writeIn = document.getElementById('equivalencia');
+            document.getElementById('txtDolares').value = 0;
+            document.querySelector('#txtResult').value = 0;
+            if(value==0){
+                writeIn.innerHTML = "<h1>0.84 Euro</h1>";
+                toDolar = 0.84;
+            }else if(value==1){
+                writeIn.innerHTML = "<h1>8.75 Colones Salvadoreños</h1>";
+                toDolar = 8.75;
+            }else{
+                writeIn.innerHTML = "<h1>109.68 Yenes</h1>";
+                toDolar = 108.68;
+            }
+         }
+         function calcular(){
+            var dolares = document.getElementById('txtDolares').value;
+            document.querySelector('#txtResult').value = dolares * toDolar;
+         }
     </script>
+    <script src="../../js/script.js"></script>
 </body>
 </html>

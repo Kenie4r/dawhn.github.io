@@ -1,0 +1,71 @@
+table.tab-x {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 36px auto;
+    width: 64%;
+}
+
+.tab-x th, .tab-x td {
+    padding: 4px 8px;
+}
+
+.tab-x thead tr th:nth-child(odd) {
+    border-top-left-radius: 12px;
+}
+
+.tab-x thead tr th:nth-child(even) {
+    border-top-right-radius: 12px;
+}
+
+.tab-x thead th {
+    background: #4f81bd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 6px 9px;
+    text-align: center;
+}
+
+.tab-x tr {
+    border-right: 1px solid #95b3d7;
+}
+
+.tab-x tbody tr {
+    border-bottom: 1px solid #95b3d7;
+}
+
+.tab-x tbody tr:nth-child(odd) {
+    background: #dbe5f0;
+}
+
+.tab-x tbody th, 
+.tab-x tbody tr:nth-child(odd) td {
+    border-right: 1px solid #bdbebe;
+}
+
+.tab-x tbody tr:nth-child(even) {
+    background: #c9d6f9;
+}
+
+.tab-x tbody th, 
+.tab-x tbody tr:nth-child(even) td {
+    border-right: 1px solid #95b3d7;
+}
+
+.tab-x tfoot tr th {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.tab-x tfoot th {
+    background: #4f81bd;
+    color: #e9e9e9;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 6px 9px;
+    text-align: center;
+}
+
+.tab-x tr *:nth-child(3), .tab-x tr *:nth-child(4) {
+    text-align: right;
+}

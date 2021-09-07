@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método reverse()</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="../../css/img/javascript.png">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>Método reverse()</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Guías de JS</a></li>
+                <li><a href="../../investigacion.html">Investigaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="information">
+            <p>
+                El método reverse cruza los elementos del objeto matriz invocados en su lugar, mutando la matriz, y retornando una referencia a la misma.
+            </p>
+            <p class="code-block">
+                <code>
+                    const a = [1, 2, 3];
+                    <br>
+                    console.log(a); // [1, 2, 3]
+                    <br>
+                    a.reverse();    
+                    <br>
+                    console.log(a); // [3, 2, 1]
+                </code>
+            </p>
+            <div class="example">
+                <h3 class="example-h3">
+                    Reverse en JS
+                </h3>
+                <p>
+                    Ingrese 4 datos en el orden que guste, para luego revertirlos
+                </p>
+                <div class="input-zone">
+                    <input type="text" name="txtinput" id="txtData1" placeholder="Ingrese el dato n° 1" class="txtinput">
+                    <input type="text" name="txtinput" id="txtData2"  placeholder="Ingrese el dato n° 2" class="txtinput">
+                    <input type="text" name="txtinput" id="txtData3"  placeholder="Ingrese el dato n° 3" class="txtinput">
+                    <input type="text" name="txtinput" id="txtData4"  placeholder="Ingrese el dato n° 4" class="txtinput">
+                </div>
+                <button class="button" id="btnClick">
+                    reverse 
+                </button>
+                <div class="input-zone">
+                    <input type="text" name="txtResult" id="Data1" placeholder="Dato n° 1" class="txtinput  txtR" disabled>
+                    <input type="text" name="txtResult" id="Data2"  placeholder="Dato n° 2" class="txtinput txtR"  disabled>
+                    <input type="text" name="txtResult" id="Data3"  placeholder="Dato n° 3" class="txtinput txtR" disabled>
+                    <input type="text" name="txtResult" id="Data4"  placeholder="Dato n° 4" class="txtinput txtR" disabled>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    
+    <script src="../../js/script.js"></script>
+</body>
+</html>

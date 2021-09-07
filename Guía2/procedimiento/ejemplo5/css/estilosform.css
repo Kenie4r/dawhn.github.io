@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+h1            {
+    background-color:Wheat;
+    border:outset 6px Brown;
+    color:#502000;
+    font-family:'Oswald',Tahoma,Helvetica,"Liberation Sans";
+    text-align:center;
+}
+
+.frmred       {
+    background-color:LightSalmon;
+    color:DarkRed;
+    font-family:'Pontano Sans',Verdana,Helvetica,"Liberation Sans";
+    font-size:1em;
+    font-weight:400;
+}
+
+.frmblue      {
+     background-color:LightSkyBlue;
+     color:MediumBlue;
+     font-family:'Pontano Sans',Verdana,Helvetica,"Liberation Sans";
+     font-size:1em;
+     font-weight:300;
+}
+
+.frmgreen     {
+     background-color:PaleGreen;
+     color:DarkGreen;
+     font-family:"Lucida Sans";
+     font-size:0.9em;
+     font-weight:400;
+}
+
+label        {
+     background-color:Cornsilk;
+     color:DarkGreen;
+     font-family:'Pontano Sans',Verdana,Helvetica,"Liberation Sans";
+     font-size:0.85em;
+     font-weight:600;
+}

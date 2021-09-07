@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos push y pop</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="../../css/img/javascript.png">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>Método push() y pop()</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Guías de JS</a></li>
+                <li><a href="../../investigacion.html">Investigaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="information">
+            <p>
+                En javascript podemos hacer uso de las mátrices o arreglos, los cuales
+                nos ayudan a obtener no solo muchos datos, sino que también de cualquier tipo
+                además de estos no es necesario que su tamaño  no seán predefinido si 
+                es que no se quiere, esto debido  a la existencia de diferente tipos de metodos
+                los cuales ayudan a ingresar más datos sin ningún problema
+            </p>
+            <br>
+            <h3>
+                EL MÉTODO PUSH()
+            </h3>
+            <p>
+                Este método ayuda a la creación de arreglos en los cuales no se tiene por seguro 
+                el tamaño del arreglo, para ello el método push() que es llamado <i>Array.push(dato1, dato2, ...)</i>
+                es de tener en cuenta que para usarlo es recomendado el usar más de 1 dato a ingresar.
+            </p>
+            <p class="code-block">
+                <code>
+                    var sports = ['soccer', 'baseball'];<br>
+                    var total = sports.push('football', 'swimming');<br>
+                    <br>
+                    console.log(sports); // ['soccer', 'baseball', 'football', 'swimming'] <br>
+                    console.log(total);  // 4
+                </code>
+            </p>
+            <br>
+            <h3>Método pop()</h3>
+            <p>
+                En este caso para modificar la longitud o tamaño de nuestro arreglo podemos
+                hacer uso del método pop() el cual, elimina el último dato que nuestro array tiene
+                devolviendolo, pero si se vuelve a escribir el array podremos ver que ese dato ha
+                sido eliminado del todo
+            </p>
+            <p class="code-block">
+                <code>
+                    var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
+                    <br>
+                    var popped = myFish.pop();
+                    <br>
+                    console.log(myFish); // ['angel', 'clown', 'mandarin' ]
+                    <br>
+                    console.log(popped);//'sturgeon'
+            
+                </code>
+            </p>
+            <br>
+            <h3>EJEMPLO CON AMBOS MÉTODOS</h3>
+            <p class="code-block">
+                <code>
+                    var colors = ['blue', 'red', 'green', 'yellow']
+                    <br>
+                    colors.push('White', 'Black');//agregamos dos nuevos datos
+                    <br>
+                    console.log(colors)//'['blue', 'red', 'green', 'yellow', 'White', 'Black']'
+                    <br>
+                    colors.pop()//Borramos el campo de 'Black'
+                    <br>
+                    console.log(colors)//'['blue', 'red', 'green', 'yellow', 'White']'
+                </code>
+            </p>
+        </div>
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

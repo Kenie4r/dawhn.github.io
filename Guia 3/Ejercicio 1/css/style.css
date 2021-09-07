@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(36, 36, 138)
+}
+.body{
+
+    position: absolute;
+    margin: 5% 15%;
+    width: 70%;
+    height: 75%;
+}
+.calculadora{
+    justify-self: center;
+    height: 100%;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.header{
+    background-color: rgb(138, 138, 143);
+    color: white;
+    padding: 1em;
+}
+.txtNumbers{
+    width: 80%;
+    border: 1px solid black;
+    margin: 1em auto;
+    height: 50px ;
+    box-shadow: rgba(0, 0, 0, 0.575) 1px 1px;
+    border-radius: 10px;
+    padding: 0.6em;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.actualNumber{
+    text-align: right;
+}
+
+.grid-buttons{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+}
+.btns{
+    color: blue;
+    border: none;
+    height: fit-content;
+    padding: 0.2em;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+}
+.span-2{
+    grid-column: span 2;
+}
+.lastNumber{
+    text-align: right;
+    color: gray;
+    font-size: smaller;
+}

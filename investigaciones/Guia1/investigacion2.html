@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULL y UNDEFINED</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/icons/style.css">
+    <link rel="shortcut icon" href="../../css/img/javascript.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>NULL y UNDEFINED</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Guías de JS</a></li>
+                <li><a href="../../investigacion.html">Investigaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="information">
+            <p>
+                Null y Undefined pertenecen a los tipos primitivos de JavaScript son muy parecidos e incluso cuando inicias en el mundo de js, no te queda claro que diferencia hay entre ambos.
+                Undefined, es el valor que tiene una variable a la cual no se le ha asignado ningún valor. Es la forma en que JS dice que no sabe que es esa variable.
+                 Null, significa que la variable no tiene ningún valor.
+            </p>
+            <br>
+            <p>
+                Como ves son bastante parecidos, pero la diferencia principal, es que Undefined, es asignado por JS y solo por JS de forma automática como valor inicial en caso de que no le asignes un valor. En cambio el valor Null, debe ser asignado mediante el código que escribamos.
+                Además de esto, existe otra diferencia, estos valores se comportan diferente cuando los usamos en operaciones aritméticas, veamos este ejemplo:
+            </p>
+            <p class="code-block">
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    <br>
+                    &lt;html lang="en" dir="ltr"&gt;
+                    <br>
+                    &nbsp;&lt;head&gt;
+                      <br>
+                      &nbsp; &nbsp;&lt;meta charset="utf-8"&gt;
+                        <br>
+                        &nbsp; &nbsp;&lt;title&gt;Null y undefined&lt;/title&gt;
+                        <br>
+                    &nbsp;&lt;/head&gt;
+                      <br>
+                    &nbsp;&lt;body&gt;
+                      <br>
+                      &nbsp; &nbsp;&lt;script type="text/javascript"&gt;
+                        <br>
+                    &nbsp; &nbsp; &nbsp;console.log(1 + null);
+                          <br>
+                    &nbsp; &nbsp; &nbsp;console.log(1 + undefined);
+                          <br>
+                    &nbsp; &nbsp;&lt;/script&gt;
+                        <br>
+                    &nbsp;&lt;/body&gt;
+                      <br>
+                    &lt;/html&gt;
+                </code>
+            </p>
+            <p>
+                Cuando ejecutamos el código anterior la primera suma regresa 1, esto es por que null se convierte a 0 al hacer la operación aritmética. La segunda operación regresa NaN que significa Not A Number (no es un número), esto es por que no es posible realizar ninguna operación aritmética al usar valores undefined.
+            </p>
+        </div>
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

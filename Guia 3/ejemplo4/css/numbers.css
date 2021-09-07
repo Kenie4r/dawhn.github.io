@@ -1,0 +1,23 @@
+h1             {
+    background-color:Lavender;
+    border:double 5px rgb(55,33,99);
+    font-family:"Bookman Old Style";
+    font-weight:800;
+    font-size:20pt;
+    text-align:center;
+}
+
+label   {
+    color:SaddleBrown;
+    font-family:"Century Gothic";
+    font-weight:500;
+    font-size:10pt;
+}
+
+input   {
+    background-color:Wheat;
+    font-family:"Franklin Gothic Demi";
+    font-weight:400;
+    font-size:10pt;
+    color:Maroon;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El objeto Math()</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="../../css/img/javascript.png">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="title">
+            <h1>Objeto Math en JS</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../../index.html">Guías de JS</a></li>
+                <li><a href="../../investigacion.html">Investigaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="information">
+            <p>
+                Una de las principales funciones necesarias para poder trabajar ya sea con números
+                enteros o números flotantes, para ello en es necesario un objeto llamado Math(), el 
+                cual básicamente un clase la cual está instalada de manera predeterminada en JavaScript
+            </p>
+            <p>
+                Cómo hemos visto la intención de esto es tener un clase en la cual podremos tener 
+                todos las funciones y también atributos, entre estos, el Número PI, Número de Euler
+                , etc. En este caso vamos a tener en cuenta las funciones donde pondremos un ejemplo 
+                y para que sirve este:
+            </p>
+            <br>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Función</th>
+                        <th>Descripción</th>
+                        <th>Código</th>
+                    </tr>
+                    <tr>
+                        <td>Math.abs()</td>
+                        <td>
+                            Este nos retornar el valor abosuluto
+                            sus parametros son Math.abs(x) donde x es el número.
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    //usaremos la fúnción del valor absoluto
+                                    <br>
+                                    var myNum = -34;
+                                    <br>
+                                    var absoluto = Math.abs(myNum);
+                                    <br>
+                                    console.log(absoluto);
+                                    //Nos devolvera 34 ya que este es su valor absoluto
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Math.round()</td>
+                        <td>
+                            Nos devuelve el número redondeado, siendo el resultado
+                            el número más cercano. La sintaxis es: Math.round(x) siendo x
+                            el número.
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    //usaremos la fúnción para redondear
+                                    <br>
+                                    var myNum = 34.23;
+                                    <br>
+                                    var redondeado = Math.round(myNum);
+                                    <br>
+                                    console.log(redondeado);
+                                    //Nos devolvera 34
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Math.ceil()</td>
+                        <td>
+                            Esta nos devuelve el mayor número que sigue después 
+                            del número entregado, los parametros son Math.ceil(x) donde 
+                            x es un número.
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    Math.ceil(.95);    // 1<br>
+                                    Math.ceil(4);      // 4<br>
+                                    Math.ceil(7.004);  // 8<br>
+                                    Math.ceil(-0.95);  // -0<br>
+                                    Math.ceil(-4);     // -4<br>
+                                    Math.ceil(-7.004); // -7
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Math.floor()
+                        </td>
+                        <td>
+                            Nos devuelve el menor número de al entregado
+                            los parametros son Math.floor(x) donde x es un número 
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                        Math.floor(0.223);//nos devuelve 0
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Math.exp()</td>
+                        <td>
+                            Este nos devuelve el resultado del exponncial de e<sup>x</sup>
+                            Los parametros son Matn.exp(x) donde x es un número
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    Math.exp(-1); // 0.36787944117144233
+                                    <br>
+                                    Math.exp(0);  // 1
+                                    <br>
+                                    Math.exp(1);  // 2.718281828459045
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Math.log()
+                        </td>
+                        <td>
+                            Nos devuelve el valor de el logaritmo natural 
+                            de x número, los parámetros son Math.log(x)
+                            donde x es un número
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    Math.log(1);  // 0
+                                    Math.log(10); // 2.302585092994046
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Math.random()
+                        </td>
+                        <td>
+                            Nos devuelve un número random entre 0 y 1 (sin tomar al 1), este
+                            no obtiene ningún parametro
+                        </td>
+                        <td>
+                            <p class="code-block">
+                                <code>
+                                    // Retorna un número aleatorio entre min (incluido) y max (excluido)
+                                    <br>
+                                    function getRandomArbitrary(min, max) {
+                                        <br>
+                                        &nbsp;return Math.random() * (max - min) + min;
+                                        <br>
+                                    }
+                                </code>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body  {
+    /* Old browsers */
+    background: #8e0209; 
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top, #8e0209 0%, #7f0215 45%, #59000e 100%); 
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8e0209), color-stop(45%,#7f0215), color-stop(100%,#59000e)); 
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* IE10+ */
+    background: -ms-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* W3C */
+    background: linear-gradient(to bottom, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e0209', endColorstr='#59000e',GradientType=0 ); 
+    color: #f6e6b4;
+    font: Normal 0.9em 'Roboto',Tahoma,Helvetica,"Liberation Sans";
+}
+
+h1    {
+    font: Bold 1.2em 'Roboto',Tahoma,Helvetica,"Liberation Sans";
+    font-weight: 700;
+    text-align: center;
+}

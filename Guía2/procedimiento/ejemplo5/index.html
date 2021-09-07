@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Creación de controles de formulario dinámicamente</title>
+<meta charset="utf-8" />
+<!-- <link rel="stylesheet" href="css/basic.css" /> -->
+<!-- <link rel="stylesheet" href="css/estilosform.css"> -->
+<link rel="stylesheet" href="css/basic.css" />
+<link rel="stylesheet" href="css/estilosform.css" />
+<script src="js/script.js"></script>
+</head>
+<body>
+<header id="insetBg">
+<h1 class="insetType">Creación de formularios dinámicos</h1>
+</header>
+<section>
+<article id="design">
+<form action="javascript:void(0);" action="POST" name="frmconf" id="form" class="contact">
+<fieldset class="contact-inner">
+<div class="contact-input">
+<label for="selcontrol" class="select">
+<select name="selcontrol" id="selcontrol">
+<option value="" selected="selected">Tipo de control</option>
+<option value="text">Cuadro de texto</option>
+<option value="password">Cuadro de contraseña</option>
+<option value="textarea">Áreas de texto</option>
+<option value="checkbox">Casillas de verificación</option>
+<option value="radio">Botones de opción</option>
+<option value="file">Control de archivo</option>
+<option value="button">Botones genéricos</option>
+</select>
+</label>
+</div>
+<div class="contact-input">
+<input type="text" name="txtnum" maxlength="2" autofocus placeholder="Número de controles" />
+</div>
+<div class="contact-submit">
+    <input type="submit" name="cmdenviar" value="Enviar" />
+</div>
+</fieldset>
+</form>
+</article>
+<article id="view"></article>
+</section>
+</body>
+</html>

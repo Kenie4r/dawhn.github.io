@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /* Old browsers */
+    background: #fcf29c; 
+    /* FF3.6+ */
+    background: -moz-linear-gradient(-45deg, #fcf29c 0%, #fcef76 51%, #fcef76 51%, #f9e740 52%, #f1da36 100%); 
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fcf29c), color-stop(51%,#fcef76), color-stop(51%,#fcef76), color-stop(52%,#f9e740), color-stop(100%,#f1da36)); 
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, #fcf29c 0%,#fcef76 51%,#fcef76 51%,#f9e740 52%,#f1da36 100%); 
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(-45deg, #fcf29c 0%,#fcef76 51%,#fcef76 51%,#f9e740 52%,#f1da36 100%); 
+    /* IE10+ */
+    background: -ms-linear-gradient(-45deg, #fcf29c 0%,#fcef76 51%,#fcef76 51%,#f9e740 52%,#f1da36 100%); 
+    /* W3C */
+    background: linear-gradient(135deg, #fcf29c 0%,#fcef76 51%,#fcef76 51%,#f9e740 52%,#f1da36 100%); 
+    /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf29c', endColorstr='#f1da36',GradientType=1 ); 
+    font-size: 16px;
+}
+
+#buttonarea {
+    margin: 24px auto;
+    width: 56%;
+}
+
+ol {
+    background: rgba(118,187,204,1);
+    background: -moz-linear-gradient(left, rgba(118,187,204,1) 0%, rgba(78,197,230,1) 52%, rgba(34,155,189,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(118,187,204,1)), color-stop(52%, rgba(78,197,230,1)), color-stop(100%, rgba(34,155,189,1)));
+    background: -webkit-linear-gradient(left, rgba(118,187,204,1) 0%, rgba(78,197,230,1) 52%, rgba(34,155,189,1) 100%);
+    background: -o-linear-gradient(left, rgba(118,187,204,1) 0%, rgba(78,197,230,1) 52%, rgba(34,155,189,1) 100%);
+    background: -ms-linear-gradient(left, rgba(118,187,204,1) 0%, rgba(78,197,230,1) 52%, rgba(34,155,189,1) 100%);
+    background: linear-gradient(to right, rgba(118,187,204,1) 0%, rgba(78,197,230,1) 52%, rgba(34,155,189,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76bbcc', endColorstr='#229bbd', GradientType=1 );
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+    list-style: none;
+    height: auto;
+    margin: 0 auto;
+    padding: 24px 48px;
+    width: 56%;
+}
+
+ol li {
+    display: inline-block;
+    margin-right: 16px;
+}

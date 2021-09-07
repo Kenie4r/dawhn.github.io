@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ciudades.css">
+    <link rel="stylesheet" href="css/slick.css">
+<body>
+    <header>
+        <h1>Selector de destino de vacaciones</h1>
+        </header>
+        <section>
+        <article id="slick">
+        <!-- Contact form -->
+        <div class="contact-form">
+        <!-- Title -->
+        <div class="title">País destino</div>
+        <!-- Intro text -->
+        <p class="intro">
+        Seleccione <b>el país</b> al que desea ir:
+        </p>
+        <!-- Inicio de Contact Form -->
+        <div class="w-100">
+        <!-- Campos de formulario -->
+        <form action="javascript:void(0);" name="testform" id="testform" method="post">
+        <!-- Campo de selección del país -->
+        <div class="field">
+        <select name="country" id="country" class="grayed">
+        <option selected="selected" class="disabled">Italia</option>
+        
+        <option>Francia</option>
+        <option>España</option>
+        <option>Estados Unidos</option>
+        
+        </select>
+        <div id="arrow-select"></div>
+        <svg id="arrow-select-svg"></svg>
+        <span class="entypo-book icon"></span>
+        <span class="slick-tip left">Seleccione el país destino</span>
+        </div>
+        <!-- Campo de selección de la ciudad destino -->
+        <div class="field">
+        <select name="city" id="city" class="grayed" size="4">
+        <option>Roma</option>
+        <option>Turín</option>
+        <option>Milán</option>
+        <option>Venecia</option>
+        <option>Verona</option>
+        
+        </select>
+        </div>
+        <!-- Send button -->
+        <input type="button" name="btnagregar" id="btnagregar" value="Agregar ciudad ->"
+        class="send" />
+        </form>
+        <!-- / Form fields -->
+        </div>
+        </div>
+        <!-- / Final del Contact form -->
+        </article>
+        </section>
+</body>
+</html>

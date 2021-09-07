@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+.zui-table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 1em 'Roboto',Arial,Helvetica,"Liberation Sans";
+    margin: 16px auto;
+}
+
+.zui-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 12px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.zui-table-rounded {
+    border: none;
+}
+
+.zui-table-rounded thead th {
+    background-color: #CFAD70;
+    border: none;
+    text-shadow: 1px 1px 1px #ccc;
+    color: #333;
+}
+
+.zui-table-rounded thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.zui-table-rounded thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.zui-table-rounded tbody td {
+    border: none;
+    border-top: solid 1px #957030;
+    background-color: #EED592;
+}
+
+.zui-table-rounded tbody .number {
+    text-align: center;
+}
+
+/* 
+.zui-table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.zui-table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+*/
+
+.zui-table-rounded tfoot th {
+    background-color: #CFAD70;
+    border: none;
+    text-shadow: 1px 1px 1px #ccc;
+    color: #333;
+}
+
+.zui-table tfoot th {
+    background-color: #CFAD70;
+    color: #336B6B;
+    padding: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.zui-table tfoot .number {
+    text-align: center;
+}
+
+.zui-table-rounded tfoot th:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.zui-table-rounded tfoot th:last-child {
+    border-radius: 0 0 10px 0;
+}

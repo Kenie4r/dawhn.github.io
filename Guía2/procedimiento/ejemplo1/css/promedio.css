@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #b7deed 0%, #75C8FF 30%, #4DB4F0 60%, #4D94FF 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #b7deed 0%, #75C8FF 30%, #4DB4F0 60%, #4D94FF 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #b7deed 0%, #75C8FF 30%, #4DB4F0 60%, #4D94FF 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b7deed), color-stop(30, #75C8FF), color-stop(60, #4DB4F0), color-stop(100, #4D94FF));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #b7deed 0%, #75C8FF 30%, #4DB4F0 60%, #4D94FF 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #b7deed 0%, #75C8FF 30%, #4DB4F0 60%, #4D94FF 100%);
+}
+
+body {
+    font-size: 16px;
+    background: url(../img/pocket-calculator.png) right bottom no-repeat;
+}
+
+.masked{
+    /* color: #147b96; */
+    background: -webkit-linear-gradient(transparent, transparent), url(../img/paint.png) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    /* background: url(../img/paint.png) repeat, white; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-animation-name: masked-animation;
+    animation-name: masked-animation;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@-webkit-keyframes masked-animation {
+    0% {background-position: left bottom;}
+    100% {background-position: right bottom;}
+}
+
+h1 { 
+    color: #fff;
+    font: bold 4em Helvetica, Arial, Sans-Serif;
+    margin: 12px auto;
+    text-align: center;
+    text-shadow: 1px 1px #02a2fe, 2px 2px #02a2fe, 3px 3px #02a2fe;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    -ms-transition: all 0.12s ease-out;
+    transition: all 0.12s ease-out;
+}
+
+h1:hover {
+    text-shadow: 1px 1px #02a2fe, 
+                 2px 2px #02a2fe, 
+                 3px 3px #02a2fe, 
+                 4px 4px #02a2fe, 
+                 5px 5px #02a2fe, 
+                 6px 6px #02a2fe;
+}
+
+h3  {
+    color: #064050;
+    font-family: 'LeagueGothicRegular',Arial,Helvetica,"Liberation Sans";
+    font-weight:600;
+    font-size:1.5em;
+    text-align:center;
+}

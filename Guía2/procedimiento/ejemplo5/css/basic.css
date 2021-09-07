@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+h1       {
+    background-color:Lavender;
+    border:ridge 8px Indigo;
+    color:Indigo;
+    font-family:'Oswald',Tahoma,Helvetica,"Liberation Sans";
+    font-size:3.2em;
+    font-weight:600;
+    margin:0 auto;
+}
+
+p        {
+    background-color:Lavender;
+    border:groove 2px Indigo;
+    font-family:'Pontano Sans',Verdana,Helvetica,"Liberation Sans";
+    font-size:12px;
+}
+
+fieldset {
+    background-color:Lavender;
+    border:inset 3px Indigo;
+}

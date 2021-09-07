@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputs{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+}
+.inputs>button{
+    height: fit-content;
+    padding: 1em;
+}
+table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+table th{
+    border: solid 1px ;
+    background-color: black;
+    color: white;
+}
+table td{
+    border: solid 1px ;
+}
